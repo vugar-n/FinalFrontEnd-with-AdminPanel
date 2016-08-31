@@ -1,0 +1,80 @@
+#features {
+    .featuresContent {
+        background: $grayColor;
+        padding-top: 55px;
+        ul {
+            margin-top: 65px;
+        }
+        li {
+            padding: 25px 40px 30px 25px;
+            border-top-left-radius: 8px;
+            border-bottom-left-radius: 8px;
+            cursor: pointer;
+            h4 {
+                text-transform: uppercase;
+                font-weight: 700;
+                color: $blueColor;
+                font-size: 17px;
+            }
+        }
+        .active {
+            background: $blueColor;
+            color: white;
+            h4 {
+                color: white;
+            }
+        }
+    }
+    .featuresList {
+        padding-top: 80px;
+        background: white;
+        .col-lg-3 {
+            padding-bottom: 80px;
+        }
+        i {
+            color: $blueColor;
+            padding-bottom: 15px;
+        }
+        p {
+            font-size: 15px;
+            color: #736c6a;
+        }
+        h4 {
+            text-transform: uppercase;
+        }
+    }
+    .featuresLiveUpdate {
+        padding-top: 40px;
+        padding-bottom: 20px;
+        h1 {
+            font-size: 45px;
+            text-transform: uppercase;
+            font-weight: 300;
+            color: white;
+        }
+        p {
+            color: white;
+        }
+        ul {
+            padding-top: 20px;
+        }
+        input[name='yourName'] {
+            padding: 8px 10px;
+            border-left: 3px solid $blueColor;
+            margin-bottom: 10px;
+        }
+        input[name='yourEmail'] {
+            padding: 8px 90px 8px 10px;
+            border-left: 3px solid $blueColor;
+            margin-bottom: 10px;
+        }
+        input[name='liveSubmit'] {
+            padding: 11px 35px;
+            border: 1px solid white;
+            text-transform: uppercase;
+            background: none;
+            color: white;
+            margin-bottom: 10px;
+        }
+    }
+}

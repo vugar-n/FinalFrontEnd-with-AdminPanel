@@ -1,0 +1,35 @@
+//Imported files
+@import "variables";
+@import "commonClasses";
+@import "partials/about";
+@import "partials/contacts";
+@import "partials/feedback";
+@import "partials/home";
+@import "partials/prices";
+@import "partials/team";
+@import "partials/features";
+@import "animations";
+@import "daxilol";
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #1d1d1d;
+    line-height: 1.5625;
+    background: url("../img/mainbg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#preloader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 666;
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+    background: white url('../img/download.gif') no-repeat center center;
+}

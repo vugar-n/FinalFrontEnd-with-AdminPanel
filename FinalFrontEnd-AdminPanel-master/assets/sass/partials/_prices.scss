@@ -1,0 +1,139 @@
+#prices {
+    background: white;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    .col-lg-12 {
+        h1 {
+            text-transform: uppercase;
+            font-size: 45px;
+            font-weight: 300;
+            span {
+                color: $blueColor;
+            }
+        }
+        h5 {
+            line-height: 25px;
+            margin-bottom: 90px;
+        }
+    }
+    .col-lg-4 {
+        padding-bottom: 70px;
+        .priceCol {
+            background: #F8F8F8;
+            transition: all 0.2s ease !important;
+            padding-bottom: 50px;
+            .grayTitle {
+                color: #A3A3A3;
+                text-transform: uppercase;
+                font-size: 25px;
+                font-weight: 300;
+                padding-top: 20px;
+                padding-bottom: 20px;
+            }
+            .blackTitle {
+                text-transform: uppercase;
+                font-size: 25px;
+                font-weight: 300;
+                padding-top: 20px;
+                padding-bottom: 20px;
+            }
+        }
+        .blueCol:hover {
+            color: white;
+            background: $blueColor;
+            .priceDollarBlue {
+                background: #23ADDB;
+                color: white;
+            }
+            button[name=blueBtn] {
+                border: 1px solid white;
+                color: white;
+            }
+            button[name=blueBtn]:hover {
+                background: white;
+                color: $blueColor;
+            }
+        }
+        .priceDollarGray {
+            padding-top: 15px;
+            color: #BEBEBE;
+            background: #F3F3F3;
+            h1 {
+                font-size: 115px;
+                font-weight: 300;
+            }
+            .dollarSymbol {
+                font-size: 47px;
+                font-weight: 400;
+                vertical-align: super;
+            }
+            p {
+                text-transform: uppercase;
+                padding-bottom: 10px;
+            }
+        }
+        .priceDollarBlue {
+            padding-top: 15px;
+            color: $blueColor;
+            background: #F3F3F3;
+            transition: all 0.2s ease !important;
+            h1 {
+                font-size: 115px;
+                font-weight: 300;
+            }
+            .dollarSymbol {
+                font-size: 47px;
+                font-weight: 400;
+                vertical-align: super;
+            }
+            p {
+                text-transform: uppercase;
+                padding-bottom: 10px;
+            }
+        }
+        .ulGray {
+            padding-top: 40px;
+            padding-bottom: 50px;
+            padding-right: 40px;
+            list-style: none;
+            color: #BEBEBE;
+            hr {
+                width: 80%;
+            }
+        }
+        .ulBlack {
+            padding-top: 40px;
+            padding-bottom: 50px;
+            padding-right: 40px;
+            list-style: none;
+            hr {
+                width: 80%;
+            }
+        }
+        button[name=grayBtn] {
+            padding-left: 70px;
+            padding-right: 70px;
+            height: 45px;
+            color: #B6B6B6;
+            background: none;
+            text-transform: uppercase;
+            border: 1px solid #B6B6B6;
+            border-radius: 3px;
+        }
+        button[name=blueBtn] {
+            padding-left: 70px;
+            padding-right: 70px;
+            height: 45px;
+            text-transform: uppercase;
+            background: none;
+            color: $blueColor;
+            border: 1px solid $blueColor;
+            border-radius: 3px;
+        }
+    }
+    .priceLogos {
+        li {
+            padding-right: 50px;
+        }
+    }
+}

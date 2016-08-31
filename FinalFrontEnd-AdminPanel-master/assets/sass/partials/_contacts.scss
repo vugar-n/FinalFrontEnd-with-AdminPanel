@@ -1,0 +1,71 @@
+#contacts {
+    #startup {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        color: white;
+        background-color: $blueColor !important;
+        margin-bottom: 70px;
+        i {
+            transform: rotate(-45deg);
+        }
+        h1 {
+            text-transform: uppercase;
+            font-size: 45px;
+            padding-bottom: 5px;
+            font-weight: 300;
+        }
+        button {
+            padding: 15px 30px;
+            text-transform: uppercase;
+            color: white;
+            background: $blueColor;
+            border: 1px solid white;
+            margin-top: 10px;
+        }
+    }
+    footer {
+        padding-bottom: 50px;
+        color: white;
+        span {
+            color: $blueColor;
+        }
+        img {
+            margin-bottom: 20px;
+        }
+        p {
+            font-weight: 400;
+            padding-bottom: 10px;
+        }
+        h5 {
+            font-weight: 700;
+        }
+        h4 {
+            text-transform: uppercase;
+        }
+        .col-lg-4 {
+            i {
+                padding: 10px;
+                color: $blueColor;
+            }
+        }
+        .col-lg-3 {
+            i {
+                color: $blueColor;
+                font-size: 20px;
+            }
+            ul {
+                font-size: 15px;
+            }
+            li {
+                margin-bottom: 15px;
+                padding-left: 30px;
+                font-size: 15px;
+                line-height: 1.6;
+            }
+        }
+    }
+    #copyr {
+        color: #81A9BF;
+        padding-bottom: 30px;
+    }
+}

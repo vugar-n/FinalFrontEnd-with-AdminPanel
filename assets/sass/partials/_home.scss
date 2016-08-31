@@ -1,0 +1,124 @@
+#home {
+    width: 100%;
+    font-size: 14px;
+    a {
+        line-height: 40px;
+        color: #dabeca;
+        text-transform: uppercase;
+        padding-right: 11px;
+        padding-bottom: 2px;
+        text-shadow: none;
+        font-weight: 400;
+    }
+    .active a {
+        color: $blueColor !important;
+        background: none !important;
+        box-shadow: none !important;
+        border-bottom: 2px solid $blueColor;
+    }
+    ul:nth-child(1) {
+        margin-left: 35px;
+    }
+    ul:nth-child(2) {
+        li:nth-child(2) {
+            a {
+                line-height: 33px;
+                margin-top: 18px;
+                padding: 0 23px;
+                border: 1px solid $blueColor;
+                border-radius: 3px;
+                color: $blueColor;
+            }
+            a:hover {
+                color: white;
+                background: $blueColor;
+            }
+        }
+    }
+    #mainNav {
+        border-radius: 0 !important;
+        border: 0 !important;
+        box-shadow: none;
+        background: none;
+        margin-bottom: 144px;
+        padding-bottom: 15px;
+        transition: all 0.5s ease;
+        .navbar-brand {
+            img {
+                margin-top: 5px;
+                height: 30px;
+            }
+        }
+    }
+    h1 {
+        font-size: 58px;
+        color: white;
+        font-weight: 300;
+        span {
+            color: $blueColor;
+        }
+    }
+    p {
+        color: white;
+        font-size: 24px;
+        font-weight: 300;
+        margin-top: 14px;
+        margin-bottom: 30px;
+    }
+    ul:nth-child(3) {
+        list-style: none;
+    }
+    button {
+        text-transform: uppercase;
+        color: white;
+        border-radius: 3px;
+    }
+    button[name=takeTour] {
+        padding: 12px 35px;
+        width: 100%;
+        background: none;
+        border: 1px solid white;
+        margin-bottom: 15px;
+    }
+    button[name=getStarted] {
+        padding: 12px 50px;
+        width: 100%;
+        background: $blueColor;
+        margin-bottom: 15px;
+        i {
+            padding-right: 5px;
+        }
+    }
+    button[name=takeTour]:hover {
+        background: white;
+        color: $blueColor;
+    }
+    button[name=getStarted]:hover {
+        background: #19C5FF;
+    }
+    .logos {
+        overflow: hidden;
+        background: $grayColor;
+        margin-top: 220px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        ul {
+            list-style: none;
+            li {
+                padding-right: 45px;
+            }
+            li:nth-child(odd) {
+                img {
+                    transform: translateY(-90px);
+                    transition: all 1s ease;
+                }
+            }
+            li:nth-child(even) {
+                img {
+                    transform: translateY(90px);
+                    transition: all 1s ease;
+                }
+            }
+        }
+    }
+}
